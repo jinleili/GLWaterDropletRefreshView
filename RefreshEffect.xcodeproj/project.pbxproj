@@ -16,26 +16,11 @@
 		3CEEE6DC1873C1E6000E3B14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CEEE6DA1873C1E6000E3B14 /* Main.storyboard */; };
 		3CEEE6DF1873C1E6000E3B14 /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEEE6DE1873C1E6000E3B14 /* GLViewController.m */; };
 		3CEEE6E11873C1E6000E3B14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEEE6E01873C1E6000E3B14 /* Images.xcassets */; };
-		3CEEE6E81873C1E6000E3B14 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEEE6E71873C1E6000E3B14 /* XCTest.framework */; };
-		3CEEE6E91873C1E6000E3B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEEE6C81873C1E6000E3B14 /* Foundation.framework */; };
-		3CEEE6EA1873C1E6000E3B14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEEE6CC1873C1E6000E3B14 /* UIKit.framework */; };
-		3CEEE6F21873C1E6000E3B14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CEEE6F01873C1E6000E3B14 /* InfoPlist.strings */; };
-		3CEEE6F41873C1E6000E3B14 /* RefreshEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEEE6F31873C1E6000E3B14 /* RefreshEffectTests.m */; };
 		3CEEE6FF1873C2FF000E3B14 /* GLWaterDropletRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEEE6FE1873C2FF000E3B14 /* GLWaterDropletRefresh.m */; };
 		3CEEE70218746047000E3B14 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEEE70118746047000E3B14 /* AudioToolbox.framework */; };
 		3CEEE705187460D3000E3B14 /* GLSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CEEE704187460D3000E3B14 /* GLSoundManager.m */; };
 		3CEEE70718746194000E3B14 /* pull_refresh.aif in Resources */ = {isa = PBXBuildFile; fileRef = 3CEEE70618746194000E3B14 /* pull_refresh.aif */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3CEEE6EB1873C1E6000E3B14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3CEEE6BD1873C1E6000E3B14 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3CEEE6C41873C1E6000E3B14;
-			remoteInfo = RefreshEffect;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3CEEE6C51873C1E6000E3B14 /* RefreshEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,11 +37,7 @@
 		3CEEE6DD1873C1E6000E3B14 /* GLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLViewController.h; sourceTree = "<group>"; };
 		3CEEE6DE1873C1E6000E3B14 /* GLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLViewController.m; sourceTree = "<group>"; };
 		3CEEE6E01873C1E6000E3B14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3CEEE6E61873C1E6000E3B14 /* RefreshEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefreshEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEEE6E71873C1E6000E3B14 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3CEEE6EF1873C1E6000E3B14 /* RefreshEffectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RefreshEffectTests-Info.plist"; sourceTree = "<group>"; };
-		3CEEE6F11873C1E6000E3B14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3CEEE6F31873C1E6000E3B14 /* RefreshEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshEffectTests.m; sourceTree = "<group>"; };
 		3CEEE6FD1873C2FF000E3B14 /* GLWaterDropletRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLWaterDropletRefresh.h; sourceTree = "<group>"; };
 		3CEEE6FE1873C2FF000E3B14 /* GLWaterDropletRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLWaterDropletRefresh.m; sourceTree = "<group>"; };
 		3CEEE70118746047000E3B14 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -79,16 +60,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CEEE6E31873C1E6000E3B14 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CEEE6E81873C1E6000E3B14 /* XCTest.framework in Frameworks */,
-				3CEEE6EA1873C1E6000E3B14 /* UIKit.framework in Frameworks */,
-				3CEEE6E91873C1E6000E3B14 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				3CEEE6CE1873C1E6000E3B14 /* RefreshEffect */,
-				3CEEE6ED1873C1E6000E3B14 /* RefreshEffectTests */,
 				3CEEE6C71873C1E6000E3B14 /* Frameworks */,
 				3CEEE6C61873C1E6000E3B14 /* Products */,
 			);
@@ -106,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				3CEEE6C51873C1E6000E3B14 /* RefreshEffect.app */,
-				3CEEE6E61873C1E6000E3B14 /* RefreshEffectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,24 +124,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3CEEE6ED1873C1E6000E3B14 /* RefreshEffectTests */ = {
-			isa = PBXGroup;
-			children = (
-				3CEEE6F31873C1E6000E3B14 /* RefreshEffectTests.m */,
-				3CEEE6EE1873C1E6000E3B14 /* Supporting Files */,
-			);
-			path = RefreshEffectTests;
-			sourceTree = "<group>";
-		};
-		3CEEE6EE1873C1E6000E3B14 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				3CEEE6EF1873C1E6000E3B14 /* RefreshEffectTests-Info.plist */,
-				3CEEE6F01873C1E6000E3B14 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,24 +144,6 @@
 			productReference = 3CEEE6C51873C1E6000E3B14 /* RefreshEffect.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3CEEE6E51873C1E6000E3B14 /* RefreshEffectTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3CEEE6FA1873C1E6000E3B14 /* Build configuration list for PBXNativeTarget "RefreshEffectTests" */;
-			buildPhases = (
-				3CEEE6E21873C1E6000E3B14 /* Sources */,
-				3CEEE6E31873C1E6000E3B14 /* Frameworks */,
-				3CEEE6E41873C1E6000E3B14 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3CEEE6EC1873C1E6000E3B14 /* PBXTargetDependency */,
-			);
-			name = RefreshEffectTests;
-			productName = RefreshEffectTests;
-			productReference = 3CEEE6E61873C1E6000E3B14 /* RefreshEffectTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -220,11 +153,6 @@
 				CLASSPREFIX = GL;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = OWWWW;
-				TargetAttributes = {
-					3CEEE6E51873C1E6000E3B14 = {
-						TestTargetID = 3CEEE6C41873C1E6000E3B14;
-					};
-				};
 			};
 			buildConfigurationList = 3CEEE6C01873C1E6000E3B14 /* Build configuration list for PBXProject "RefreshEffect" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -240,7 +168,6 @@
 			projectRoot = "";
 			targets = (
 				3CEEE6C41873C1E6000E3B14 /* RefreshEffect */,
-				3CEEE6E51873C1E6000E3B14 /* RefreshEffectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,14 +181,6 @@
 				3CEEE70718746194000E3B14 /* pull_refresh.aif in Resources */,
 				3CEEE6D31873C1E6000E3B14 /* InfoPlist.strings in Resources */,
 				3CEEE6DC1873C1E6000E3B14 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3CEEE6E41873C1E6000E3B14 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CEEE6F21873C1E6000E3B14 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,23 +199,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CEEE6E21873C1E6000E3B14 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3CEEE6F41873C1E6000E3B14 /* RefreshEffectTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3CEEE6EC1873C1E6000E3B14 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3CEEE6C41873C1E6000E3B14 /* RefreshEffect */;
-			targetProxy = 3CEEE6EB1873C1E6000E3B14 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3CEEE6D11873C1E6000E3B14 /* InfoPlist.strings */ = {
@@ -313,14 +216,6 @@
 				3CEEE6DB1873C1E6000E3B14 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3CEEE6F01873C1E6000E3B14 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3CEEE6F11873C1E6000E3B14 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -426,48 +321,6 @@
 			};
 			name = Release;
 		};
-		3CEEE6FB1873C1E6000E3B14 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RefreshEffect.app/RefreshEffect";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RefreshEffect/RefreshEffect-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "RefreshEffectTests/RefreshEffectTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		3CEEE6FC1873C1E6000E3B14 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RefreshEffect.app/RefreshEffect";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "RefreshEffect/RefreshEffect-Prefix.pch";
-				INFOPLIST_FILE = "RefreshEffectTests/RefreshEffectTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -485,15 +338,6 @@
 			buildConfigurations = (
 				3CEEE6F81873C1E6000E3B14 /* Debug */,
 				3CEEE6F91873C1E6000E3B14 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3CEEE6FA1873C1E6000E3B14 /* Build configuration list for PBXNativeTarget "RefreshEffectTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3CEEE6FB1873C1E6000E3B14 /* Debug */,
-				3CEEE6FC1873C1E6000E3B14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
