@@ -11,6 +11,8 @@
 @interface GLViewController : UIViewController<UITableViewDelegate>
 {
     IBOutlet UITableView *_tableView;
+    
+    NSArray     *dataSource;
 }
 
 @end

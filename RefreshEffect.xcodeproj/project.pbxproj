@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C26A8891877986E001E31FE /* WaterDropletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C26A8881877986E001E31FE /* WaterDropletView.m */; };
 		3CEEE6C91873C1E6000E3B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEEE6C81873C1E6000E3B14 /* Foundation.framework */; };
 		3CEEE6CB1873C1E6000E3B14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEEE6CA1873C1E6000E3B14 /* CoreGraphics.framework */; };
 		3CEEE6CD1873C1E6000E3B14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CEEE6CC1873C1E6000E3B14 /* UIKit.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C26A8871877986E001E31FE /* WaterDropletView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterDropletView.h; sourceTree = "<group>"; };
+		3C26A8881877986E001E31FE /* WaterDropletView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterDropletView.m; sourceTree = "<group>"; };
 		3CEEE6C51873C1E6000E3B14 /* RefreshEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEEE6C81873C1E6000E3B14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3CEEE6CA1873C1E6000E3B14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -107,6 +110,8 @@
 				3CEEE70618746194000E3B14 /* pull_refresh.aif */,
 				3CEEE6FD1873C2FF000E3B14 /* GLWaterDropletRefresh.h */,
 				3CEEE6FE1873C2FF000E3B14 /* GLWaterDropletRefresh.m */,
+				3C26A8871877986E001E31FE /* WaterDropletView.h */,
+				3C26A8881877986E001E31FE /* WaterDropletView.m */,
 				3CEEE703187460D3000E3B14 /* GLSoundManager.h */,
 				3CEEE704187460D3000E3B14 /* GLSoundManager.m */,
 			);
@@ -195,6 +200,7 @@
 				3CEEE6D51873C1E6000E3B14 /* main.m in Sources */,
 				3CEEE6DF1873C1E6000E3B14 /* GLViewController.m in Sources */,
 				3CEEE6D91873C1E6000E3B14 /* GLAppDelegate.m in Sources */,
+				3C26A8891877986E001E31FE /* WaterDropletView.m in Sources */,
 				3CEEE705187460D3000E3B14 /* GLSoundManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -5,11 +5,13 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A472ECB0-03EC-4DED-BE3E-3BDEB3541CAB</string>
+	<string>ED14A115-405C-42B1-841F-2B4646843C37</string>
 	<key>IDESourceControlProjectName</key>
 	<string>RefreshEffect</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>08BA82F9-1B8F-43E7-B9DC-7073BE9B3356</key>
+		<string>https://github.com/grenlight/GLWaterDropletRefreshView.git</string>
 		<key>18E4A91D-A462-4AFE-B9F9-A8B705791E41</key>
 		<string>https://github.com/grenlight/iOSProjects</string>
 	</dict>
@@ -17,11 +19,13 @@
 	<string>RefreshEffect/RefreshEffect.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>08BA82F9-1B8F-43E7-B9DC-7073BE9B3356</key>
+		<string>../..</string>
 		<key>18E4A91D-A462-4AFE-B9F9-A8B705791E41</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/grenlight/iOSProjects</string>
+	<string>https://github.com/grenlight/GLWaterDropletRefreshView.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -35,6 +39,14 @@
 			<string>18E4A91D-A462-4AFE-B9F9-A8B705791E41</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOSProjects</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>08BA82F9-1B8F-43E7-B9DC-7073BE9B3356</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RefreshEffect</string>
 		</dict>
 	</array>
 </dict>

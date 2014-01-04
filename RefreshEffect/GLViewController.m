@@ -26,6 +26,19 @@
     refreshView = [[GLWaterDropletRefresh alloc] initWithWidth:320];
     [refreshView setCenter:CGPointMake(160, -50)];
     [self.view addSubview:refreshView];
+    refreshView.owner = _tableView;
+    
+    __unsafe_unretained GLViewController *weakSelf = self;
+    [refreshView setRefreshBlock:^{
+        [weakSelf performSelector:@selector(stopRefreshAnimation) withObject:Nil afterDelay:5];
+    }];
+    
+    
+}
+
+- (void)stopRefreshAnimation
+{
+    [refreshView stopAnimating];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
@@ -33,4 +46,11 @@
     if (_tableView.contentOffset.y <= 0)
         [refreshView dropByOffsetY:-(_tableView.contentOffset.y)];
 }
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
+{
+//    if (_tableView.contentOffset.y <= 0)
+//        [refreshView pullReleased];
+}
+
 @end
